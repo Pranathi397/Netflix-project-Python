@@ -1,0 +1,33 @@
+ Business Case: Netflix - Data Exploration and Visualisation
+
+My observations in data:
+1)Missing values in columns like-director,cast,country
+2)Multiple values present in certain columns
+3)Duration column has a mixture of  numerical and string values like 90min and also seasons
+4)Different columns have different datatypes like objects and integers.
+5)There is a lot of categorical data for which some can be converted into numerical:for ex:duration column can be converted to numerical which helps us in finding average duration time of the shows
+6)Most of the TV shows available are rated as TV-MA
+7)The percentage of Tv shows to movies is 30:70
+8)The given data helps us to find average tv show and movies time
+9)It also helps us to find actors who have acted in most of the movies/tv shows aired on netflix
+10)This data helps us to understand the customer preferences based on different genres,actors,directors and helps us decide the type of movies/shows to be aired.
+
+
+Tasks done:
+Identified the basic characteristics of data
+Observed the shape of data,unique valules,data types,null values and changed the null values accordingly(For director column and actor column whose country isnt mentioned)
+Performed non graphica; analysis
+Resolved the nested data issue for directors,cast,country,Genre and merged it back with the original data
+Resolved the issue in rating column where there was duration value (say 20min instead of Not rated) for non rated movies/series.
+
+
+Performed univariate analysis in terms of count in columns and identified:
+1)Number of distinct titles on the basis of genre-International Movies, Dramas and Comedies are the most popular .
+2)Number of distinct titles on the basis of type.It shows 70:30 ratio of Movies and TV Shows
+
+Charts/Graphs
+Depicted the no. of distinct titles on basis of genre - bar graph using Matplotlib
+Depicted the no. of distinct titles on the basis of type--Pie chart
+
+
+
